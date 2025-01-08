@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+  font-family: "Raleway", serif;
+  
+}
+
+:root{
+    --verde: rgba(0, 120, 53, 1);
+}
+
+header{
+  background-color: #444444;
+  
+}
+.container{
+  display: flex;
+  max-width: 95%;
+  padding-top: 10px;
+  padding: 2px 0%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.main-logo{
+  display: flex;
+}
+
+.navbar a{
+  margin: 0 18px;
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+}
+
+main{
+  background-color: #F3F9F2;
+}
+
+main .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+
+}
+
+.main-logo img{
+  height: 60px;
+  cursor: pointer;
+}
+.main-logo {
+  width: 100px;;
+   
+}
+
+main .main-text{
+  text-align: center;
+  color: #007835;
+  font-weight: bold;
+}
+
+main .main-text h1{
+  font-size: 50px;
+}
+
+main .main-text p{
+  font-size: 22px;
+  font-weight: bold;
+}
+.main-bola{
+  width: 100px;
+  
+}
+.main-bola img{
+  height: 30px;
+  
+}
+
+
+
+.gradiente{
+  background: linear-gradient(to right, yellow, green, yellow);
+  height: 9px;
+}
+
+
+section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Rectangle161 {
+    width: 100%; /* Mantém a largura total */
+    height: 48px;
+    background-color: #007835;
+    margin-bottom: 5px; /* Diminui o espaço entre os retângulos */
+    margin-top: 0px; 
+    position: relative;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ajusta o alinhamento interno */
+}
+
+.HouseFill5 {
+    display: flex; /* Organiza os itens horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Espaça os itens nas extremidades */
+    width: 100%;
+    position: relative;
+}
+
+.HouseFill5 img {
+    width: 48px; 
+    height: 48px;
+    margin-right: 10px; /* Ajusta o espaço entre a imagem e o texto */
+    cursor: pointer;
+}
+
+.HouseFill5 span {
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin: 0 auto; /* Centraliza o texto horizontalmente */
+    padding: 0;
+    text-align: center;
+}
+
+
+.Rectangle165 {
+    width: 90%; /* Ajusta a largura do campo de busca */
+    height: 32px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 5px; /* Diminui o espaço superior do campo de busca */
+    margin-bottom: 5px; /* Diminui o espaço inferior do campo de busca */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.input-busca {
+    width: 100%;
+    height: 100%;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-right: auto;
+    font-family: Roboto, sans-serif;
+    word-wrap: break-word;
+}
+
+
+
+@media screen and (max-width: 1020px){
+  
+  header .container{
+    display: flex;
+    
+    
+  }
+  
+  main .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-logo{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-text{
+    padding-top: 20px;
+  }
+  
+  .main-bola{
+    display: none;
+  }
+
+ 
+}
+@media screen and (max-width: 840px){
+
+  header .container{
+    padding: 20px;
+    height: 100%;
+  }
+
+  .navbar{
+    display: none;
+  }
+
+  /* .navbar a{
+    position: fixed;
+    background-color: aqua;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+  }
+
+  .navbar.ativo{
+    left: 0;
+  } */
+
+  .menu-icon{
+    display: block;
+  }
+
+  .menu-icon img{
+     height: 40px;
+  }
+  
+  .container-options{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main{
+    height: 290px;
+    align-items: center;
+    text-align: center;
+    margin-top: 0%;
+  }
+
+  .options{
+
+    width: 350px;
+  
+  }
+
+  footer{
+    height: 100%;
+    align-items: center;
+    text-align: center;
+  
+  }
+
+  .footer-text{
+    padding-bottom: 20px;
+  }
+  footer .container{
+    flex-direction: column;
+  }
+ 
+}
+
+
+
+
+

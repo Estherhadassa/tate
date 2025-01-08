@@ -250,3 +250,116 @@ footer .footer-contact{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1020px){
+  
+  header .container{
+    display: flex;
+    
+    
+  }
+  
+  main .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-logo{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-text{
+    padding-top: 20px;
+  }
+  
+  .main-bola{
+    display: none;
+  }
+
+ 
+}
+@media screen and (max-width: 840px){
+
+  header .container{
+    padding: 20px;
+    height: 100%;
+  }
+
+  .navbar{
+    display: none;
+  }
+
+  /* .navbar a{
+    position: fixed;
+    background-color: aqua;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+  }
+
+  .navbar.ativo{
+    left: 0;
+  } */
+
+  .menu-icon{
+    display: block;
+  }
+
+  .menu-icon img{
+     height: 40px;
+  }
+  
+  .container-options{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main{
+    height: 290px;
+    align-items: center;
+    text-align: center;
+    margin-top: 0%;
+  }
+
+  .options{
+
+    width: 350px;
+  
+  }
+
+  footer{
+    height: 100%;
+    align-items: center;
+    text-align: center;
+  
+  }
+
+  .footer-text{
+    padding-bottom: 20px;
+  }
+  footer .container{
+    flex-direction: column;
+  }
+ 
+}
+
+
+
+
+
